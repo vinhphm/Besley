@@ -1,0 +1,6 @@
+sources/ufo/
+sources/instance_ufo/
+sources/master_ufo/
+sources/py/
+__pycache__/
+*.pyc

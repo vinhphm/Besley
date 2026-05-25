@@ -647,8 +647,13 @@ def add_vietnamese(sfd_path):
         f'BeginChars: {total_slots} {glyph_count}',
         f'BeginChars: {total_slots} {new_count}'
     )
-    # Append new glyphs at end of file
-    updated = updated.rstrip() + '\n\n' + new_content
+    # Insert new glyphs before EndChars (not after EndSplineFont)
+    updated = re.sub(
+        r'\nEndChars\b',
+        '\n' + new_content + 'EndChars',
+        updated,
+        count=1
+    )
 
     with open(sfd_path, 'w') as f:
         f.write(updated)

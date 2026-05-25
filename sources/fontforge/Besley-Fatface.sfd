@@ -19715,8 +19715,6 @@ SplineSet
 EndSplineSet
 Refer: 513 -1 N 1 0 0 1 0 0 2
 EndChar
-EndChars
-EndSplineFont
 
 StartChar: uni0309
 Encoding: 777 777 765
@@ -20726,4 +20724,5 @@ Fore
 Refer: 191 771 N 1 0 0 1 258 -460 2
 Refer: 62 121 N 1 0 0 1 0 0 3
 EndChar
-
+EndChars
+EndSplineFont

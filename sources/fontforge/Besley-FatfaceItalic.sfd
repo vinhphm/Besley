@@ -19227,8 +19227,6 @@ SplineSet
 EndSplineSet
 Refer: 511 -1 N 1 0 0 1 0 0 2
 EndChar
-EndChars
-EndSplineFont
 
 StartChar: uni0309
 Encoding: 777 777 767
@@ -20238,4 +20236,5 @@ Fore
 Refer: 113 771 N 1 0 0 1 91 -460 2
 Refer: 62 121 N 1 0 0 1 0 0 3
 EndChar
-
+EndChars
+EndSplineFont
